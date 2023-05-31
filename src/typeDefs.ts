@@ -21,6 +21,7 @@ export type CallbackDoc = {
 export type PickerCallback = {
   action: string
   docs: CallbackDoc[]
+  token: string
 }
 
 export type authResult =  {
